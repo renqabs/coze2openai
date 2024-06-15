@@ -40,7 +40,7 @@ app.get("/", (req, res) => {
   `);
 });
 
-app.post("/v1/chat/completions", async (req, res) => {
+app.post("/yyds/v1/chat/completions", async (req, res) => {
   const authHeader =
     req.headers["authorization"] || req.headers["Authorization"];
   if (!authHeader) {
